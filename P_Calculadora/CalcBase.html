@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Calculador Basica de soma</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esta é uma calculadora de aprendizado para HTML/JS">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Page_Style.css" />
+</head>
+
+<body>
+
+    <h1>Interagindo com o Usuário em JavaScript</h1>
+
+    <h2>Calculador Basica de somas</h2>
+
+    <a href="Index.html">Voltar pagina inicial</a>
+
+    <script>
+        // Código JavaScript para interagir com o usuário
+
+        // Exibe um alerta
+        alert("Olá, esta é a calculadora simples!");
+
+        // Pergunta ao usuário se deseja confirmar algo
+        var confirmacao = confirm("Insira dois valores para somá-los ou cancele a operação");
+        if (confirmacao) {
+            alert("Você confirmou!");
+            // Solicita um número ao usuário
+            var numero1 = prompt("Digite o primeiro número:");
+            var numero2 = prompt("Digite o segundo número:");
+            var soma = parseInt(numero1) + parseInt(numero2);
+
+        } else {
+            alert("Você cancelou!");
+            alert("Operação não realizada!");
+        }
+    </script>
+    
+</body>
+
+</html>

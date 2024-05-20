@@ -1,0 +1,72 @@
+/* Reset CSS básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding-top: 20px; /* Adicionado padding para afastar o conteúdo do topo */
+}
+
+header {
+  background-color: #8b0000;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header a {
+  color: #fff; /* Alterado a cor do link */
+  text-decoration: none; /* Removido sublinhado */
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  color: #8b0000;
+  margin-bottom: 20px;
+}
+
+.converter {
+  max-width: 400px;
+  margin: 20px auto; /* Alterado o margin para centralizar */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.converter label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.converter input,
+.converter select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.converter button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.resultado {
+  max-width: 400px;
+  margin: 20px auto; /* Alterado o margin para centralizar */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

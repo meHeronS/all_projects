@@ -1,0 +1,95 @@
+/* Reset CSS básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Títulos */
+h1 {
+    font: 48px cursive;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px black;
+    color: crimson;
+    padding: 10px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    color: darkred;
+    font-family: 'Franklin Gothic Medium';
+    text-decoration: solid;
+}
+
+h3 {
+    color: firebrick;
+}
+
+/* Corpo */
+body {
+    background-color: blanchedalmond;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+/* Botões */
+button {
+    color: darkgreen;
+    font-size: 16px;
+    font-style: italic;
+    border: none;
+    background-color: #ca4d4d;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #da2c6e;
+}
+
+.button-container {
+    margin-top: 20px;
+    margin-bottom: 20px; /* Adicionando margem abaixo dos botões */
+    text-align: center;
+}
+
+.button-container button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #cf220b;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-container button:hover {
+    background-color: #7a7a7a;
+}
+
+/* Imagem */
+img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Parágrafos */
+p {
+    color: orangered;
+}
+
+/* Divisores */
+div {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: normal;
+}

@@ -1,0 +1,11 @@
+Inicializar o projeto
+
+npm init -y
+
+inicializar o server http
+
+http-server
+
+inicializar o bd JSON
+
+json-server --watch db.json

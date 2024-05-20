@@ -1,0 +1,244 @@
+{
+  "jogos": [
+    {
+      "id": 1,
+      "titulo": "The Witcher 3: Wild Hunt",
+      "descricao": "Um RPG de ação em mundo aberto com uma história rica e personagens profundos.",
+      "imagem": "https://static.cdprojektred.com/cms.cdprojektred.com/witcher3/media/wallpaper/979x511/8db4cdb9ccdd8fe03a546723d30a41cb8567034a.jpg",
+      "desenvolvedor": "CD Projekt Red",
+      "pagina_desenvolvedora": "https://www.cdprojekt.com/"
+    },
+    {
+      "id": 2,
+      "titulo": "Cyberpunk 2077",
+      "descricao": "Um jogo de RPG de mundo aberto ambientado em uma metrópole futurista.",
+      "imagem": "https://cdn-l-cyberpunk.cdprojektred.com/media/wallpaper/1600x900/CP2077_UE_1600x900_EN_WINDOWS.png",
+      "desenvolvedor": "CD Projekt Red",
+      "pagina_desenvolvedora": "https://www.cdprojekt.com/"
+    },
+    {
+      "id": 3,
+      "titulo": "Red Dead Redemption 2",
+      "descricao": "Um épico de faroeste que conta a história de Arthur Morgan e a gangue Van der Linde.",
+      "imagem": "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/94be4c766906a96e85eeb3e3f2990681.jpg?im=Resize=1920",
+      "desenvolvedor": "Rockstar Games",
+      "pagina_desenvolvedora": "https://www.rockstargames.com/"
+    },
+    {
+      "id": 4,
+      "titulo": "The Elder Scrolls V: Skyrim",
+      "descricao": "Um RPG de mundo aberto com dragões, magia e um vasto mundo para explorar.",
+      "imagem": "https://images.ctfassets.net/rporu91m20dc/1wMmcDixUjxPiG2AyGm1aa/2a3c6961cd507453c251f5ff4cf9b4f2/doom_skyrim.jpg?q=70&&&fm=jpg&fl=progressive",
+      "desenvolvedor": "Bethesda Game Studios",
+      "pagina_desenvolvedora": "https://bethesda.net/"
+    },
+    {
+      "id": 5,
+      "titulo": "Minecraft",
+      "descricao": "Um jogo de construção criativa onde os jogadores podem criar qualquer coisa que imaginarem.",
+      "imagem": "https://www.minecraft.net/content/dam/games/minecraft/screenshots/Warden_2.png",
+      "desenvolvedor": "Mojang",
+      "pagina_desenvolvedora": "https://www.minecraft.net/"
+    },
+    {
+      "id": 6,
+      "titulo": "Grand Theft Auto V",
+      "descricao": "Um jogo de ação e aventura em mundo aberto ambientado na cidade fictícia de Los Santos.",
+      "imagem": "https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/gta-v/9ca23774eb886a9dce533874723e35ce7a825f5d.png",
+      "desenvolvedor": "Rockstar Games",
+      "pagina_desenvolvedora": "https://www.rockstargames.com/"
+    },
+    {
+      "id": 7,
+      "titulo": "Fortnite",
+      "descricao": "Um jogo de batalha real onde 100 jogadores competem para ser o último sobrevivente.",
+      "imagem": "https://cdn2.unrealengine.com/fortnite-convergence-keyart-nologo-2276x1280-38196a9ed583.jpg",
+      "desenvolvedor": "Epic Games",
+      "pagina_desenvolvedora": "https://www.epicgames.com/fortnite/"
+    },
+    {
+      "id": 8,
+      "titulo": "League of Legends",
+      "descricao": "Um jogo de batalha de arena online multiplayer com um grande elenco de campeões.",
+      "imagem": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt3109dd25e8c796d5/612fa09e8faa7a6bbfbfe3ed/Pentakill_MordekaiserKarthusSona_ProposedFINAL.jpg?width=1560&quality=80",
+      "desenvolvedor": "Riot Games",
+      "pagina_desenvolvedora": "https://www.riotgames.com/"
+    },
+    {
+      "id": 9,
+      "titulo": "Overwatch",
+      "descricao": "Um jogo de tiro em primeira pessoa com uma variedade de heróis únicos e modos de jogo.",
+      "imagem": "https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt32ee2e586ba508c5/62298aff9485354f9b460bd0/midtown_screenshot_01.png?auto=webp",
+      "desenvolvedor": "Blizzard Entertainment",
+      "pagina_desenvolvedora": "https://playoverwatch.com/"
+    },
+    {
+      "id": 10,
+      "titulo": "Dark Souls III",
+      "descricao": "Um jogo de RPG de ação conhecido por sua dificuldade e jogabilidade punitiva.",
+      "imagem": "https://media.fromsoftware.jp/fromsoftware/jp/static/img/products/detail/screenshot/product_099_7.jpg",
+      "desenvolvedor": "FromSoftware",
+      "pagina_desenvolvedora": "https://www.fromsoftware.jp/"
+    },
+    {
+      "id": 11,
+      "titulo": "Sekiro: Shadows Die Twice",
+      "descricao": "Um jogo de ação e aventura com combate preciso e uma história ambientada no Japão feudal.",
+      "imagem": "https://media.fromsoftware.jp/fromsoftware/jp/static/img/products/detail/screenshot/product_104_3.jpg",
+      "desenvolvedor": "FromSoftware",
+      "pagina_desenvolvedora": "https://www.fromsoftware.jp/"
+    },
+    {
+      "id": 12,
+      "titulo": "Hades",
+      "descricao": "Um roguelike de ação com uma história envolvente baseada na mitologia grega.",
+      "imagem": "https://images.ctfassets.net/5owu3y35gz1g/66Ay8RSCIZ8aIOqPSyFQuw/d39b9ceeb1812a52ffffc9b923372fae/Hades_Launch.png?w=1920&q=80",
+      "desenvolvedor": "Supergiant Games",
+      "pagina_desenvolvedora": "https://www.supergiantgames.com/"
+    },
+    {
+      "id": 13,
+      "titulo": "Among Us",
+      "descricao": "Um jogo multiplayer de dedução social onde os jogadores devem descobrir os impostores.",
+      "imagem": "https://www.innersloth.com/wp-content/uploads/2023/10/thefungle-nowordart-1.png",
+      "desenvolvedor": "InnerSloth",
+      "pagina_desenvolvedora": "https://innersloth.com/gameAmongUs.php"
+    },
+    {
+      "id": 14,
+      "titulo": "Doom Eternal",
+      "descricao": "Um jogo de tiro em primeira pessoa com ação frenética e demônios para derrotar.",
+      "imagem": "https://images.ctfassets.net/rporu91m20dc/4dJDZk4Uy79077L577LWwA/b80656c2f9c4858752e11b9168521540/DOOM_Eternal_Deluxe_Preorder_Vanity_EU-796x935-01-EN.jpg?q=70",
+      "desenvolvedor": "id Software",
+      "pagina_desenvolvedora": "https://bethesda.net/en/game/doom"
+    },
+    {
+      "id": 15,
+      "titulo": "Valorant",
+      "descricao": "Um jogo de tiro tático em primeira pessoa com personagens únicos e habilidades especiais.",
+      "imagem": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt1c4f8fda80e09741/64c03de3ff3e9b20e24d895d/China_Launch_Wallpaper_Thumbnail.jpg",
+      "desenvolvedor": "Riot Games",
+      "pagina_desenvolvedora": "https://www.riotgames.com/"
+    },
+    {
+      "id": 16,
+      "titulo": "Hollow Knight",
+      "descricao": "Um jogo de ação e aventura em plataforma com uma arte linda e uma jogabilidade desafiadora.",
+      "imagem": "https://images.squarespace-cdn.com/content/v1/606d159a953867291018f801/1617763465032-T3M2QQ4KMOTWS3EW7FC8/false_knight.jpg",
+      "desenvolvedor": "Team Cherry",
+      "pagina_desenvolvedora": "https://hollowknight.com/"
+    },
+    {
+      "id": 17,
+      "titulo": "Celeste",
+      "descricao": "Um jogo de plataforma sobre escalar uma montanha e enfrentar desafios pessoais.",
+      "imagem": "https://www.celestegame.com/images/screenshots/04.png",
+      "desenvolvedor": "Maddy Makes Games",
+      "pagina_desenvolvedora": "https://celestegame.com/"
+    },
+    {
+      "id": 18,
+      "titulo": "Stardew Valley",
+      "descricao": "Um simulador de fazenda onde os jogadores podem cultivar, pescar, minerar e muito mais.",
+      "imagem": "https://www.stardewvalley.net/wp-content/uploads/2018/12/StardewValley_5.png",
+      "desenvolvedor": "ConcernedApe",
+      "pagina_desenvolvedora": "https://www.stardewvalley.net/"
+    },
+    {
+      "id": 19,
+      "titulo": "Terraria",
+      "descricao": "Um jogo de aventura sandbox com exploração, construção e combate.",
+      "imagem": "https://terraria.org/Wallpapers/JourneysEnd-Sunset-Logo-PC-Wallpaper.png",
+      "desenvolvedor": "Re-Logic",
+      "pagina_desenvolvedora": "https://terraria.org/"
+    },
+    {
+      "id": 20,
+      "titulo": "Factorio",
+      "descricao": "Um jogo de simulação e construção de fábricas onde os jogadores devem gerenciar recursos e automatizar produção.",
+      "imagem": "https://cdn.factorio.com/assets/img/artwork/0.17-stable.png",
+      "desenvolvedor": "Wube Software",
+      "pagina_desenvolvedora": "https://www.factorio.com/"
+    },
+    {
+      "id": 21,
+      "titulo": "Subnautica",
+      "descricao": "Um jogo de sobrevivência e exploração submarina em um planeta alienígena.",
+      "imagem": "https://mainwebsite.wpenginepowered.com/subnautica/files/2014/04/SafeShallows_01-436x279.jpg",
+      "desenvolvedor": "Unknown Worlds Entertainment",
+      "pagina_desenvolvedora": "https://unknownworlds.com/subnautica/"
+    },
+    {
+      "id": 22,
+      "titulo": "No Man's Sky",
+      "descricao": "Um jogo de exploração espacial com um universo praticamente infinito.",
+      "imagem": "https://www.nomanssky.com/wp-content/uploads/2017/02/logo.png",
+      "desenvolvedor": "Hello Games",
+      "pagina_desenvolvedora": "https://www.nomanssky.com/"
+    },
+    {
+      "id": 23,
+      "titulo": "Portal 2",
+      "descricao": "Um jogo de quebra-cabeça em primeira pessoa com uma mecânica única de portais.",
+      "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/620/ss_6a4f5afdaa98402de9cf0b59fed27bab3256a6f4.1920x1080.jpg?t=1698805825",
+      "desenvolvedor": "Valve",
+      "pagina_desenvolvedora": "https://store.steampowered.com/app/620/Portal_2/"
+    },
+    {
+      "id": 24,
+      "titulo": "Half-Life: Alyx",
+      "descricao": "Um jogo de realidade virtual ambientado no universo Half-Life.",
+      "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/546560/ss_4912f4c3d259a472e9898f0a7b1f819a533d2c1e.600x338.jpg?t=1673391297",
+      "desenvolvedor": "Valve",
+      "pagina_desenvolvedora": "https://store.steampowered.com/app/546560/HalfLife_Alyx/"
+    },
+    {
+      "id": 25,
+      "titulo": "Horizon Zero Dawn",
+      "descricao": "Um jogo de ação e aventura em mundo aberto com uma história envolvente e criaturas mecânicas.",
+      "imagem": "https://gmedia.playstation.com/is/image/SIEPDC/horizon-zero-dawn-screen-05-ps4-us-13jun16?$1600px--t$",
+      "desenvolvedor": "Guerrilla Games",
+      "pagina_desenvolvedora": "https://www.guerrilla-games.com/play/horizon"
+    },
+    {
+      "id": 26,
+      "titulo": "Nier: Automata",
+      "descricao": "Um jogo de ação e RPG com uma história complexa e temas filosóficos.",
+      "imagem": "https://www.platinumgames.com/wp-content/uploads/2016/03/NieR-Automata_201606_SS_RuinedCity_03_ONLINE-660x370.jpg",
+      "desenvolvedor": "PlatinumGames",
+      "pagina_desenvolvedora": "https://platinumgames.com/games/nier-automata"
+    },
+    {
+      "id": 27,
+      "titulo": "Persona 5",
+      "descricao": "Um RPG japonês com uma narrativa forte e uma estética estilizada.",
+      "imagem": "https://atlus.com/persona5/img/school-life/section-7-info.png",
+      "desenvolvedor": "Atlus",
+      "pagina_desenvolvedora": "https://atlus.com/persona5/"
+    },
+    {
+      "id": 28,
+      "titulo": "Fallout 4",
+      "descricao": "Um RPG de mundo aberto ambientado em um mundo pós-apocalíptico.",
+      "imagem": "https://images.ctfassets.net/rporu91m20dc/2SL7cJCTf2Y8YoaA0UOOq6/19edacd0ba49d9543c46bd128d3a9e02/fo--buy--goty-box-art.jpg?q=70&&&fm=jpg&fl=progressive",
+      "desenvolvedor": "Bethesda Game Studios",
+      "pagina_desenvolvedora": "https://bethesda.net/"
+    },
+    {
+      "id": 29,
+      "titulo": "Metro Exodus",
+      "descricao": "Um jogo de tiro em primeira pessoa ambientado em uma Rússia pós-apocalíptica.",
+      "imagem": "https://www.metrothegame.com/assets/Uploads/pages/images/_resampled/ScaleWidthWyIxOTIwIl0/summer.jpg",
+      "desenvolvedor": "4A Games",
+      "pagina_desenvolvedora": "https://www.metrothegame.com/"
+    },
+    {
+      "id": 30,
+      "titulo": "Assassin's Creed Valhalla",
+      "descricao": "Um jogo de ação e aventura ambientado na era dos vikings.",
+      "imagem": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4kfA5GoEGggI8sBOUGjtXZ/53762e01f9859eab32f90dc3513244e5/ac-full-width_ancaster_desktop.png",
+      "desenvolvedor": "Ubisoft Montreal",
+      "pagina_desenvolvedora": "https://www.ubisoft.com/en-us/game/assassins-creed/valhalla"
+    }
+  ]
+}

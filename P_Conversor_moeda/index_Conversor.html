@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Conversor de Moedas</h1>
+
+    <div class="converter">
+        <label for="valor">Valor:</label>
+        <input type="number" id="valor" name="valor" step="0.01" required>
+
+        <label for="moedaOrigem">De:</label>
+        <select id="moedaOrigem" name="moedaOrigem" required>
+            <option value="BRL">Real Brasileiro (BRL)</option>
+            <option value="USD">Dólar Americano (USD)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="GBP">Libra Esterlina (GBP)</option>
+            <option value="JPY">Iene Japonês (JPY)</option>
+        </select>
+
+        <label for="moedaDestino">Para:</label>
+        <select id="moedaDestino" name="moedaDestino" required>
+            <option value="BRL">Real Brasileiro (BRL)</option>
+            <option value="USD">Dólar Americano (USD)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="GBP">Libra Esterlina (GBP)</option>
+            <option value="JPY">Iene Japonês (JPY)</option>
+        </select>
+
+        <button onclick="converter()">Converter</button>
+    </div>
+
+    <div id="resultado" class="resultado"></div>
+
+     <!-- Botão para voltar para a página dos projetos -->
+     <div class="button-container">
+        <a href="../Default_Page/Index.html"><button>Voltar para a Página dos Projetos</button></a>
+    </div>
+
+    <script>
+        function converter() {
+            var valor = parseFloat(document.getElementById("valor").value);
+            var moedaOrigem = document.getElementById("moedaOrigem").value;
+            var moedaDestino = document.getElementById("moedaDestino").value;
+
+            // Taxas de câmbio (valores fictícios para exemplo)
+            var taxas = {
+                "BRL": {
+                    "USD": 0.19,
+                    "EUR": 0.16,
+                    "GBP": 0.14,
+                    "JPY": 21.35
+                },
+                "USD": {
+                    "BRL": 5.25,
+                    "EUR": 0.84,
+                    "GBP": 0.72,
+                    "JPY": 109.87
+                },
+                "EUR": {
+                    "BRL": 6.15,
+                    "USD": 1.19,
+                    "GBP": 0.86,
+                    "JPY": 132.81
+                },
+                "GBP": {
+                    "BRL": 7.10,
+                    "USD": 1.38,
+                    "EUR": 1.17,
+                    "JPY": 154.97
+                },
+                "JPY": {
+                    "BRL": 0.047,
+                    "USD": 0.0091,
+                    "EUR": 0.0075,
+                    "GBP": 0.0065
+                }
+            };
+
+            if (moedaDestino in taxas[moedaOrigem]) {
+                var taxa = taxas[moedaOrigem][moedaDestino];
+                var resultado = valor * taxa;
+                document.getElementById("resultado").innerHTML = "Valor convertido: " + resultado.toFixed(2) + " " + moedaDestino;
+            } else {
+                document.getElementById("resultado").innerHTML = "As taxas de câmbio para essa conversão não estão disponíveis.";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

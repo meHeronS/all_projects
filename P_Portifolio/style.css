@@ -1,0 +1,652 @@
+.menu1 a:hover {
+    color: rgb(0, 0, 0);
+}
+
+a {
+    color: goldenrod;
+}
+
+.header {
+    background: #343a40;
+}
+
+.logo {
+    max-width: 70px;
+}
+
+.header_area {
+    padding: 1px;
+}
+
+.lancamento {
+    background: rgb(0, 0, 0);
+}
+
+.area_titulo {
+    margin: 10px;
+}
+
+.carregar_mais {
+    float: right;
+    margin: 20px;
+    margin-right: 0px;
+}
+
+.maisFilmes {
+    background: rgb(184, 181, 181);
+}
+
+.maisAvaliacoes {
+    background: rgb(238, 236, 236);
+}
+
+.avaliacoes {
+    background: rgb(231, 228, 228);
+}
+
+.entrevistas {
+    background: rgb(168, 168, 168);
+}
+
+.area_lancamento {
+    padding: 10px;
+}
+
+#lancamento {
+    text-align: center;
+    margin: 5px;
+}
+
+.em_destaque {
+    background: rgb(168, 168, 168);
+}
+
+.em_destaque img {
+    width: 220px;
+    height: 330px;
+}
+
+.foto_de_perfil img {
+    width: 50px;
+    border-radius: 100%;
+    border: solid 1px;
+}
+
+.foto_de_perfil_HERON img {
+    width: 100px;
+    border-radius: 100%;
+    border: solid 1px;
+}
+
+.icones i {
+    font-size: 20px;
+}
+
+#icones i {
+    font-size: 30px;
+    margin-right: 25px;
+}
+
+.novidade {
+    padding: 10px;
+}
+
+.novidades {
+    border-bottom: 2px solid rgb(43, 39, 39);
+    padding: 10px;
+}
+
+.tags button {
+    margin: 5px;
+}
+
+.footer {
+    background: rgb(231, 228, 228);
+}
+
+.footer_area {
+    display: flexbox;
+    background: #1a1b1d;
+    color: white;
+    text-align: center;
+}
+
+#menuToggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+#tela a {
+    color: red;
+}
+
+.cartao {
+    border: black solid 1px;
+}
+
+@media screen and (max-width: 420px) {
+
+    p,
+    footer {
+        font-size: 110%;
+    }
+
+    .botao {
+        font-size: 120%;
+    }
+
+    .lancamento {
+        margin-top: 40px;
+    }
+
+    .lancamento iframe {
+        width: 310px;
+        height: 175px;
+    }
+
+    .area_lancamento {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .em_destaque img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    .entrevista {
+        text-align: center;
+    }
+
+    .entrevista iframe {
+        width: 300px;
+        height: 165px;
+    }
+
+    .footer img {
+        width: 240px;
+        margin: 8px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .header {
+        position: fixed;
+        top: 0px;
+        z-index: 999;
+        max-width: 100% !important;
+    }
+
+    .container_nav {
+        display: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .menu1 {
+        display: flex;
+        position: fixed;
+        flex-wrap: wrap;
+        align-content: center;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 0%;
+        background-color: rgba(0, 0, 0, 0.7);
+        overflow: hidden;
+        -webkit-transition: height 0.3s;
+        -moz-transition: height 0.3s;
+        -ms-transition: height 0.3s;
+        -o-transition: height 0.3s;
+        transition: height 0.3s;
+        z-index: 1;
+    }
+
+    .menu1 a {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 5px;
+        font-size: 140%;
+    }
+
+    .menu1 form {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .menu-icon {
+        width: 100px;
+        height: inherit;
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        line-height: 60px;
+        color: white;
+        z-index: 998;
+    }
+
+    #menuToggle:checked~label i:nth-child(2) {
+        display: block;
+    }
+
+    #menuToggle:checked~label i:first-child {
+        display: none;
+    }
+
+    #menuToggle:not(:checked)~label i:first-child {
+        display: block;
+    }
+
+    #menuToggle:not(:checked)~label i:nth-child(2) {
+        display: none;
+    }
+
+    #menuToggle:checked~nav {
+        height: 100%;
+    }
+
+    .menu-icon i {
+        font-size: 1.9em;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .em_destaque img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 421px) and (max-width: 700px) {
+
+    p,
+    footer {
+        font-size: 110%;
+    }
+
+    .botao {
+        font-size: 120%;
+    }
+
+    .lancamento {
+        margin-top: 40px;
+    }
+
+    .lancamento iframe {
+        width: 480px;
+        height: 235px;
+    }
+
+    .area_lancamento {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .em_destaque img {
+        margin-bottom: 10px;
+    }
+
+    .entrevista {
+        text-align: center;
+    }
+
+    .entrevista iframe {
+        width: 480px;
+        height: 235px;
+    }
+
+    .footer img {
+        width: 240px;
+        margin-bottom: 5px;
+    }
+
+    .header {
+        position: fixed;
+        top: 0px;
+        z-index: 999;
+        max-width: 100% !important;
+    }
+
+    .container_nav {
+        display: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .menu1 {
+        display: flex;
+        position: fixed;
+        flex-wrap: wrap;
+        align-content: center;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 0%;
+        background-color: rgba(0, 0, 0, 0.7);
+        overflow: hidden;
+        -webkit-transition: height 0.3s;
+        -moz-transition: height 0.3s;
+        -ms-transition: height 0.3s;
+        -o-transition: height 0.3s;
+        transition: height 0.3s;
+        z-index: 1;
+    }
+
+    .menu1 a {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 0px;
+        font-size: 130%;
+    }
+
+    .menu1 form {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .menu-icon {
+        width: 100px;
+        height: inherit;
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        line-height: 60px;
+        color: white;
+        z-index: 998;
+    }
+
+    #menuToggle:checked~label i:nth-child(2) {
+        display: block;
+    }
+
+    #menuToggle:checked~label i:first-child {
+        display: none;
+    }
+
+    #menuToggle:not(:checked)~label i:first-child {
+        display: block;
+    }
+
+    #menuToggle:not(:checked)~label i:nth-child(2) {
+        display: none;
+    }
+
+    #menuToggle:checked~nav {
+        height: 100%;
+    }
+
+    .menu-icon i {
+        font-size: 1.9em;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 823px) {
+
+    p,
+    footer {
+        font-size: 120%;
+    }
+
+    .botao {
+        font-size: 120%;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .lancamento {
+        margin-top: 40px;
+    }
+
+    .area_lancamento {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .lancamento iframe {
+        width: 560px;
+        height: 315px;
+    }
+
+    .em_destaque img {
+        width: 155px;
+        height: 265px;
+        margin-bottom: 10px;
+    }
+
+    .entrevistas iframe {
+        width: 320px;
+        height: 190px;
+    }
+
+    .entrevista {
+        text-align: center;
+    }
+
+    .footer img {
+        width: 250px;
+        margin-bottom: 5px;
+    }
+
+    .header {
+        position: fixed;
+        top: 0px;
+        z-index: 999;
+        max-width: 100% !important;
+    }
+
+    .container_nav {
+        display: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .menu1 {
+        display: flex;
+        position: fixed;
+        flex-wrap: wrap;
+        align-content: center;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 0%;
+        background-color: rgba(0, 0, 0, 0.7);
+        overflow: hidden;
+        -webkit-transition: height 0.3s;
+        -moz-transition: height 0.3s;
+        -ms-transition: height 0.3s;
+        -o-transition: height 0.3s;
+        transition: height 0.3s;
+        z-index: 1;
+    }
+
+    .menu1 a {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 150%;
+    }
+
+    .menu1 form {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .menu1 form input {
+        font-size: 150%;
+    }
+
+    .menu1 form button {
+        font-size: 150%;
+    }
+
+    .menu-icon {
+        width: 100px;
+        height: inherit;
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        line-height: 60px;
+        color: white;
+        z-index: 998;
+    }
+
+    #menuToggle:checked~label i:nth-child(2) {
+        display: block;
+    }
+
+    #menuToggle:checked~label i:first-child {
+        display: none;
+    }
+
+    #menuToggle:not(:checked)~label i:first-child {
+        display: block;
+    }
+
+    #menuToggle:not(:checked)~label i:nth-child(2) {
+        display: none;
+    }
+
+    #menuToggle:checked~nav {
+        height: 100%;
+    }
+
+    .menu-icon i {
+        font-size: 1.9em;
+    }
+}
+
+@media screen and (min-width: 824px) and (max-width: 1024px) {
+
+    p,
+    footer {
+        font-size: 135%;
+    }
+
+    .botao {
+        font-size: 120%;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .lancamento {
+        margin-top: 40px;
+    }
+
+    .entrevistas iframe {
+        width: 290px;
+        height: 160px;
+    }
+
+    .header {
+        position: fixed;
+        top: 0px;
+        z-index: 999;
+        max-width: 100% !important;
+    }
+
+    .container_nav {
+        display: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .menu1 {
+        display: flex;
+        position: fixed;
+        flex-wrap: wrap;
+        align-content: center;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 0%;
+        background-color: rgba(0, 0, 0, 0.7);
+        overflow: hidden;
+        -webkit-transition: height 0.3s;
+        -moz-transition: height 0.3s;
+        -ms-transition: height 0.3s;
+        -o-transition: height 0.3s;
+        transition: height 0.3s;
+        z-index: 1;
+    }
+
+    .menu1 a {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 250%;
+    }
+
+    .menu1 form {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .menu1 form input {
+        font-size: 250%;
+    }
+
+    .menu1 form button {
+        font-size: 250%;
+    }
+
+    .menu-icon {
+        width: 100px;
+        height: inherit;
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        line-height: 60px;
+        color: white;
+        z-index: 998;
+    }
+
+    #menuToggle:checked~label i:nth-child(2) {
+        display: block;
+    }
+
+    #menuToggle:checked~label i:first-child {
+        display: none;
+    }
+
+    #menuToggle:not(:checked)~label i:first-child {
+        display: block;
+    }
+
+    #menuToggle:not(:checked)~label i:nth-child(2) {
+        display: none;
+    }
+
+    #menuToggle:checked~nav {
+        height: 100%;
+    }
+
+    .menu-icon i {
+        font-size: 1.9em;
+    }
+}
+

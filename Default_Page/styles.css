@@ -1,0 +1,90 @@
+/* Reset CSS básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Preto escuro */
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #8b0000; /* Vermelho escuro */
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff4d4d; /* Vermelho claro */
+}
+
+section {
+    padding: 50px 20px;
+}
+
+section h2 {
+    color: #8b0000; /* Vermelho escuro */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 16px;
+}
+
+/* Estilização para link de ancoragem */
+a.anchor-link {
+    display: block;
+    position: relative;
+    top: -80px; /* Compensação para o cabeçalho fixo */
+    visibility: hidden;
+}
+
+/* Estilo para destacar as seções ao rolar */
+section.highlight {
+    background-color: rgba(255, 77, 77, 0.2); /* Vermelho claro com transparência */
+}
+
+/* Layout de duas colunas */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #333; /* Cor de fundo da barra lateral */
+    padding: 20px;
+}
+
+.main-content {
+    width: 70%;
+}

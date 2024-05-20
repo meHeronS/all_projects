@@ -1,0 +1,63 @@
+/* Estilos personalizados para a página */
+
+body {
+    background-color: #333333; /* Cinza escuro */
+    color: #FFFFFF; /* Branco */
+    padding-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #FF0000; /* Vermelho */
+}
+
+.card {
+    margin-bottom: 20px;
+    background-color: #000000; /* Preto */
+    color: #FFFFFF; /* Branco */
+    border: 2px solid #FF0000; /* Vermelho */
+    border-radius: 10px;
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-title {
+    color: #FF0000; /* Vermelho */
+}
+
+.card-text {
+    color: #CCCCCC; /* Cinza claro */
+}
+
+.card-text a {
+    color: #FF0000; /* Vermelho */
+}
+
+.card-text a:hover {
+    text-decoration: none;
+    color: #FF3333; /* Vermelho claro */
+}
+
+.btn-custom {
+    background-color: #FF0000; /* Vermelho */
+    color: #FFFFFF; /* Branco */
+    border: 2px solid #FF0000; /* Vermelho */
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.btn-custom:hover {
+    background-color: #FF3333; /* Vermelho claro */
+    border-color: #FF3333; /* Vermelho claro */
+    color: #000000; /* Preto */
+}

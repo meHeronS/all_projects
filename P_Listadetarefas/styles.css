@@ -1,0 +1,99 @@
+/* Reset CSS básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+header {
+  background-color: #8b0000; /* Vermelho escuro */
+  padding: 20px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px; /* Adicionado tamanho de fonte */
+  text-align: center;
+  color: #8b0000; /* Vermelho escuro */
+  margin-bottom: 20px; /* Adicionado espaçamento inferior */
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.remove-btn, .edit-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+/* Estilos para o link no rodapé */
+.footer-link {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Estilos adicionais conforme necessário */
+.container {
+  margin-bottom: 50px; /* Ajuste para garantir que o link não sobreponha o conteúdo */
+}
